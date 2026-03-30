@@ -1,5 +1,21 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Local Supabase setup
+
+1. Copy the env template:
+
+```bash
+cp .env.example .env.local
+```
+
+2. Fill Supabase values in `.env.local` (URL + keys).
+3. Ensure local Supabase is running (`supabase start`).
+4. Start the app:
+
+```bash
+npm run dev
+```
+
 ## Getting Started
 
 First, run the development server:
